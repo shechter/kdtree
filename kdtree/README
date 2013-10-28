@@ -14,6 +14,9 @@ type "help mex" to learn more about compiling mex-functions.
 >> mex ../src/kdtreeidx.cc
 >> mex ../src/kdrangequery.cc
 
+These instructions will make sure that the compiled mex files end up in your 
+kdtree/lib directory. If they end up elsewhere, move them into the kdtree/lib directory.
+
 Finally, be sure to add the kdtree/lib directory to your MATLAB PATH.
 
 **** IMPORTANT ***
